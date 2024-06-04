@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -19,15 +24,72 @@
     <div class="phoneContainer">
       <div class="notch"></div>
       <div class="interiorPhone">
-        <div class="topPart">Samuel Green Available to Walk</div>
-        That sounds great. I’d be happy with that. Could you send over some
-        pictures of your dog, please? Here are a few pictures. She’s a happy
-        girl! Can you make it? She looks so happy! The time we discussed works.
-        How long shall I take her out for? 30 minute walk $29 1 hour walk $49
-        Type a message… Simple booking Stay in touch with our dog walkers
-        through the chat interface. This makes it easy to discuss arrangements
-        and make bookings. Once the walk has been completed you can rate your
-        walker and book again all through the chat.
+        <div class="topPart">
+          <div class="topPartLeft">
+            <div class="arrowback"></div>
+            <div class="imageSamuel">
+              <img src="images/avatar.jpg" width="100%" />
+            </div>
+            <div class="samuel">
+              <h1 id="samuelGreen">Samuel Green</h1>
+              <p id="available">Available to Walk</p>
+            </div>
+          </div>
+          <div class="threeDots">&#10247</div>
+        </div>
+        <div class="conversation">
+          <div class="messagesLeft1">
+            <div class="sMsg1">That sounds great. I’d be happy with that.</div>
+            <div class="sMsg2">
+              Could you send over some pictures of your dog, please?
+            </div>
+          </div>
+          <div class="messagesRight">
+            <div class="dogImages">
+              <img src="images/dog-image-1.jpg" /><img
+                src="images/dog-image-2.jpg"
+              /><img src="images/dog-image-3.jpg" />
+            </div>
+            <div class="dogText">
+              <div class="dogMsg1">
+                Here are a few pictures. She’s a happy girl!
+              </div>
+              <div class="dogMsg2">Can you make it?</div>
+            </div>
+          </div>
+          <div class="messagesLeft2">
+            <div class="sMsg3">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </div>
+            <div class="price30min">
+              <div class="m30min">
+                <div class="circle"></div>
+                <div class="priceText1">30 minute walk</div>
+              </div>
+              <div class="price1">$29</div>
+            </div>
+            <div class="price1hr">
+              <div class="m1hr">
+                <div class="circle"></div>
+                <div class="priceText2">1 hour walk</div>
+              </div>
+              <div class="price2">$49</div>
+            </div>
+          </div>
+          <div class="input"><input type="text" placeholder="Type a message..."/><button>></button></div>
+        </div>
+      </div>
+    </div>
+    <div class="outsideText">
+      <div class="outsideHead"><h1>Simple booking</h1></div>
+      <div class="outsideParagraph">
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
       </div>
     </div>
     <div class="rightBackground"></div>
